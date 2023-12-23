@@ -1,0 +1,41 @@
+.top-main
+{
+    border-bottom: 2px solid #390da0;
+    width: 100vw;
+    padding: 0;
+}
+
+.navbar
+{
+    padding: 0 !important;
+}
+
+.nav-link:hover
+{
+    /* background-color: rgb(224, 101, 19); */
+}
+
+.nav-toggle-btn{
+    font-size: 4.5vw;
+    border: none;
+}
+
+.nav-toggle-btn:focus {
+    outline: none; 
+    border: none;  
+    box-shadow: none;
+  }
+  
+
+
+.nav-btn {
+    font-size: 1.1vw !important;
+  }
+
+  @media (max-width: 1000px)
+  {
+    .nav-btn {
+        font-size: 2.5vw !important;
+      }
+  }
+  

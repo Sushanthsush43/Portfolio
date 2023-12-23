@@ -1,0 +1,53 @@
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #390da0;
+    width: 85%;
+}
+
+.contact-head
+{
+    margin-top: 1%;
+    font-size: 3.2vw;
+    font-weight: bold;
+}
+
+.contact-set-container{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.contact-set
+{
+    margin-right: 2%;
+    font-size: 1.1vw;
+}
+
+.contact-set-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px)
+{
+    .contact-set
+    {
+        font-size: 2.5vw;
+    }
+
+    .contact
+    {
+        width: 100%;
+    }
+
+    
+    .contact-head
+    {
+        font-size: 5vw;
+    }
+
+}

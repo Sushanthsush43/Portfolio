@@ -1,0 +1,96 @@
+.home {
+    width: 85%;
+    margin-top: 10%;
+    padding: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-part1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-text, .course-text {
+    font-size: 4.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.course-text {
+    font-size: 2.5vw;
+}
+
+.other-text {
+    font-size: 1.1vw;
+}
+
+.home-part2 {
+    display: flex;
+}
+
+.home-part2 img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover; 
+}
+
+.skills {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill-btn
+  {
+    cursor: pointer;
+    font-weight: bold !important;
+  }
+  
+  .skills-visible {
+    font-size: 1.1vw;
+    max-height: 7vh;
+  }
+
+  @media (max-width: 1000px)
+  {
+    .home-part1{
+        padding: 20px;
+    }
+
+    .home-part2{
+        display: none;
+    }
+
+    .home{
+        width: 100%;
+    }
+
+    .name-text {
+        font-size: 7vw;
+    }
+    
+    .course-text {
+        font-size: 5vw;
+    }
+    
+    .other-text {
+        font-size: 2.5vw;
+    }
+
+    .skills .skill-btn
+    {
+        font-size: 2.5vw !important;
+    }
+
+    .skills-visible .skill-btn{
+        font-size: 2.5vw !important;
+    }
+  }
+  
